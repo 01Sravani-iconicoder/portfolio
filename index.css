@@ -1,0 +1,207 @@
+*
+{
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* Header css*/
+header
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(70, 10, 92, 0.788);
+    width: 100%;
+    top: 0px;
+    position: sticky;
+    
+}
+.menu ul li
+{
+    display: inline-block;
+    margin: 7px;
+    height: 40px;
+    background-color: rgb(230, 191, 234);
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: all ease;
+    box-shadow: 5px 10px 5px rgb(44, 40, 36);
+}
+.menu ul li:hover
+{
+    background-color: rgb(51, 29, 72);
+}
+.menu ul li:active
+{
+    box-shadow: none;
+}
+.menu ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.menu ul li a:hover
+{
+    color: aliceblue;
+}
+figure
+{
+    float: right;
+    background-color: white;
+}
+#vpic
+{
+    border-radius: 50%;
+}
+#data p
+{
+    background-color: rgb(171, 133, 196);
+}
+#about
+{
+    margin: 100px;
+    box-shadow: 5px 10px 5px rgb(51, 42, 42);
+    background-color: rgb(208, 188, 227);
+}
+.heads
+{
+    font-size: 35px;
+    text-align: center;
+    filter: drop-shadow(3px 10px 5px rgb(39, 21, 21));
+}
+.skill
+{
+    color: rgb(82, 9, 150);
+}
+/* home css */
+#home
+{
+    margin: 100px;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    box-shadow: 5px 10px 5px rgb(51, 42, 42);
+}
+.con
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.buttons
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-content: center;
+    align-items: center;
+}
+.lotf
+{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+#intro
+{
+    font-size: 50px;
+}
+.content
+{
+    font-size: 25px;
+    color: black;
+}
+.firstPara::first-letter
+{
+    font-size: 40px;
+}
+.propic img
+{
+    height: 200px;
+    width: 200px;
+}
+.a 
+{
+    background-image: url(https://as1.ftcdn.net/v2/jpg/02/28/18/30/1000_F_228183038_OwmL56UONBuUBFXTVdM9Gb2VPe12EQ2T.jpg);
+}
+.buttons
+{
+    display: flex;
+    height: 100px;
+    width: 200px;
+    gap: 50px;
+}
+button
+{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(108, 65, 172);
+    border-color: rgb(16, 15, 15);
+    color: black;
+transition:all 1s ease;
+
+}
+.buttons button:hover{
+    transform: scale(1.5);
+}
+#cv
+{
+    color: black;
+    text-decoration: none;
+}
+#projects
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    margin: 100px;
+    box-shadow: 5px 10px 5px rgb(51, 42, 42);
+    height: 1000px;
+}
+.propic
+{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 5px 10px 5px rgb(51, 42, 42);
+    transition: all 3s ease;
+    border: 1px solid black;
+
+}
+#contact
+{
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+}
+fieldset
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+    width: fit-content;
+    box-shadow: 5px 10px 5px rgb(37, 23, 23);
+}
+input
+{
+    height: 30px;
+    border-radius: 10px;
+    width: 200px;
+}
+textarea
+{
+    height: 200px;
+    border-radius: 10px;
+    border-color: black;
+}
+.but:hover
+{
+    transform: scale(1.5);
+}
